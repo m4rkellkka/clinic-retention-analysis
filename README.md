@@ -8,6 +8,7 @@
 1. **Planning Horizon Problem:** The attendance rate for same-day appointments is 95%. However, a waiting time of just 1 day drops the attendance to 75%.
 2. **SMS Effectiveness:** Sending SMS reminders does not work well for short-term appointments within a week (only a 0.5% difference). But it is very effective for long-term appointments (1 month or more), saving about 7% of visits.
 3. **Profile of a Responsible Patient:** Young adults (18-35 years old) miss appointments the most. Surprisingly, having chronic diseases makes people more disciplined — patients with 2 or 3 diagnoses visit the doctor more often than completely healthy people.
+4. **Day of the Week Impact:** Attendance is incredibly stable throughout the regular workweek (Monday to Friday), hovering consistently around 80%. There is a slight drop in attendance on Saturdays (~77%), but no drastic anomalies exist. Actionable insight: The clinic does not need to apply dynamic daily staffing or change its scheduling strategy based on the specific workday.
 
 ## Code Example
 Here I used multi-level grouping to isolate a confounding variable (waiting time) when checking the real impact of SMS reminders:
